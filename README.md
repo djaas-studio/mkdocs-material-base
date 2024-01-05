@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/djaas-studio/mkdocs-material-base/actions/workflows/ci.yaml/badge.svg)](https://github.com/djaas-studio/mkdocs-material-base/actions/workflows/ci.yaml)
+[![CI/CD](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/ci.yaml/badge.svg)](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/ci.yaml)
 
 # MkDocs Project Starter
 This is a template project for creating new documentation projects that uses [MkDocs](https://www.mkdocs.org/) with the [Material Theme](https://squidfunk.github.io/mkdocs-material/).
@@ -10,7 +10,7 @@ This is a template project for creating new documentation projects that uses [Mk
 ## Local Setup
 1. Clone this repository to your local machine.
 ```
-git clone https://github.com/djaas-studio/mkdocs-material-base.git
+git clone https://github.com/djaas-swamp/mkdocs-material-base.git
 ```
 2. Inside the project root directory, create (and activate) a virtual environment to install your Python dependencies.
 ```
