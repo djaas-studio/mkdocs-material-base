@@ -1,4 +1,77 @@
-site_name: Djaas
+site_name: Djaas Swamp
 site_url: https://djaas.com
+site_author: Eyob Tariku
+site_description: >-
+  Documentations for Djaas projects and templates.
+copyright: Copyright &copy; 2024 By Djaas Swamp
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Requirements: getting-started/requirements.md
+    - Download: getting-started/download.md
+    - Installation: getting-started/installation.md
+  - Tutorial: coming-soon.md
+  - Features: coming-soon.md
+  - Reference: coming-soon.md
+  - About: coming-soon.md
+  - FAQ: coming-soon.md
+  - Release Notes: coming-soon.md
 theme:
   name: material
+  language: en
+  custom_dir: overrides
+  favicon: assets/images/favicon.ico
+  logo: assets/images/djaas-logo.png
+  font:
+    text: Fira Sans
+    code: Fira Mono
+  features:
+    - navigation.tracking
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+  palette:
+    - scheme: default
+      media: "(prefers-color-scheme: light)"
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      media: "(prefers-color-scheme: dark)"
+      primary: green
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+extra:
+  social:
+    - icon: simple/gumroad
+      link: https://djaas.gumroad.com
+    - icon: fontawesome/brands/github
+      link: https://github.com/djaas-swamp
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/djaas_swamp
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
