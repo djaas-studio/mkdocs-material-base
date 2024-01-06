@@ -21,7 +21,7 @@ theme:
   language: en
   custom_dir: overrides
   favicon: assets/images/favicon.ico
-  logo: assets/images/djaas-logo.png
+  logo: assets/images/logo.jpg
   font:
     text: Fira Sans
     code: Fira Mono
@@ -50,6 +50,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+extra_css:
+  - stylesheets/extra.css
 extra:
   social:
     - icon: simple/gumroad

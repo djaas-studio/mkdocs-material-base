@@ -1,0 +1,6 @@
+.md-logo > img {
+  display: inline-block;
+  width: 40px !important;
+  height: 40px !important;
+  border-radius: 100%;
+}
