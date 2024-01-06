@@ -4,3 +4,29 @@
   height: 40px !important;
   border-radius: 100%;
 }
+
+.announcement-wrapper {
+  display: flex;
+  justify-content: space-between;
+  color: #998;
+}
+
+.announcement-item a {
+  color: white;
+}
+
+.announcement-item .btn {
+  display: inline-block;
+  line-height: 1.8;
+  padding: 0 4px;
+  margin: 0 2px;
+  background-color: #fafbfc;
+  border: 1px solid #efefef;
+  color: #333;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.announcement-item .btn:hover {
+  color: #000;
+}
