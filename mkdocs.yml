@@ -1,6 +1,6 @@
 site_name: Base Djaas Template
 site_url: https://djaas.com
-site_author: Djaas Author
+site_author: Djaas
 site_description: >-
   Documentations for Djaas projects and templates.
 copyright: Copyright &copy; 2024 By Djaas Swamp
@@ -10,13 +10,13 @@ nav:
     - Requirements: getting-started/requirements.md
     - Download: getting-started/download.md
     - Installation: getting-started/installation.md
-  - Tutorial: coming-soon.md
-  - Features: coming-soon.md
-  - Reference: coming-soon.md
-  - About: coming-soon.md
-  - FAQ: coming-soon.md
-  - Release Notes: coming-soon.md
-  - All Our Products: coming-soon.md
+  - Tutorial: tutorial.md
+  - Features: features.md
+  - Reference: reference.md
+  - About: about.md
+  - FAQ: faq.md
+  - Release Notes: release-notes.md
+  - All Our Products: products.md
 theme:
   name: material
   language: en
