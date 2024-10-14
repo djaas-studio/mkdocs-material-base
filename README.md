@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/ci.yaml/badge.svg)](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/ci.yaml)
+[![CI/CD](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/deploy.yaml/badge.svg)](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/deploy.yaml)
 
 # MkDocs Project Starter
 This is a template project for creating new documentation projects that uses [MkDocs](https://www.mkdocs.org/) with the [Material Theme](https://squidfunk.github.io/mkdocs-material/).
@@ -45,3 +45,11 @@ pip-compile
 ```sh
 python -m pip install -r requirements.txt
 ```
+
+## Deployment
+This project uses continuous deployment to automatically publish changes to a this [page](https://djaas-swamp.github.io/mkdocs-material-base/) hosted on GitHub Pages. The GitHub Action responsible for deployment is triggered in the following scenarios:
+ * Changes are pushed the `main` branch.
+ * New release tags are created.
+
+**Important Note**
+For the continuous deployment to function properly, the repository must remain public. If the repository is made private, the deployment to GitHub Pages will stop.
