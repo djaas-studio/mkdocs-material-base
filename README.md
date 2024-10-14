@@ -1,4 +1,4 @@
-[![CI/CD](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/deploy.yaml/badge.svg)](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/deploy.yaml)
+[![Deploy](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/deploy.yaml/badge.svg)](https://github.com/djaas-swamp/mkdocs-material-base/actions/workflows/deploy.yaml)
 
 # MkDocs Project Starter
 This is a template project for creating new documentation projects that uses [MkDocs](https://www.mkdocs.org/) with the [Material Theme](https://squidfunk.github.io/mkdocs-material/).
